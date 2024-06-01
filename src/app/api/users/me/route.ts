@@ -3,11 +3,10 @@ import User from "@/models/user.Model";
 import { getDataFromToken } from "@/helpers/getDataFromToken";
 
 import { NextRequest, NextResponse } from "next/server";
-import bcryptjs from "bcryptjs";
-import jwt from 'jsonwebtoken';
+
 connect();
 
-export async function GET(request:NextRequest){
+export async function POST(request:NextRequest){
 
     try {
         const userId = await getDataFromToken(request);
