@@ -61,7 +61,7 @@ export default function SignupPage() {
             />
         <label htmlFor="password">Password</label>
         <input 
-        className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-white"
+        className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
             id="password"
             type="password"
             value={user.password}
